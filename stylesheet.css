@@ -1,3 +1,7 @@
+.navbar{
+    background-color: black !important;
+}
+
 .navbar-brand{
     font-size: 2rem;
     margin: 0px 40px 0 170px;
@@ -10,6 +14,8 @@
 .search-product{
     width: 550px;
     border-radius: 0;
+    border: 3px solid #0d6efd;
+    border-radius: 30px ;
 }
 
 .wallet-btn{
@@ -31,14 +37,15 @@
     font-size: 18px;
 }
 
-/* Product Section*/
-.product-section{
-    
+.wallet-btn{
+    background-color: #0d6efd !important;
+    color: white !important;
+    border-radius: 2px;
+    border: 5px solid #2962b8;
+
 }
 
-.product-item{
-    
-}
+/* Product Section*/
 
 .auto-slider-img{
     width: 100%;
@@ -58,16 +65,52 @@
     top: 50%;
 }
 
+.product-btn{
+    background-color: #0d6efd;
+    
+}
+
+.card-body{
+    text-align: center;
+}
+
 /* Footer */
 .text-white{
     text-decoration: none;
 }
 
 .footer-part{
-    background-color: #2874f0;
+    background-color: black;
 }
 
 .copyright-content{
     background-color: rgba(0, 0, 0, 0.2);
+}
+
+.text-color{
+    /* color: rgba(var(--bs-white-rgb),var(--bs-text-opacity)); */
+    color: white !important;
+}
+
+
+
+.brand-name{
+    font-size: 5rem;
+    font-weight: 800;
+    float: left;
+    margin-right: 0px;
+    position: relative;
+    right: 170px;
+    color: #0d6efd;
+}
+
+.description{
+    text-align: left;
+    position: relative;
+}
+
+/*body*/
+body{
+    background-color: black !important;
 }
 

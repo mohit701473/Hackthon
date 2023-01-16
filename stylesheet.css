@@ -57,3 +57,17 @@
     height: 50px;
     top: 50%;
 }
+
+/* Footer */
+.text-white{
+    text-decoration: none;
+}
+
+.footer-part{
+    background-color: #2874f0;
+}
+
+.copyright-content{
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
